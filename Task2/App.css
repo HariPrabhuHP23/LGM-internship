@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&display=swap");
+button {
+    color: white;
+    width: 150px;
+    font-weight: 600;
+    font-size: 20px;
+    float: right;
+    border-radius: 5px;
+    border: none;
+    padding: 12px 10px;
+    background-color: rgb(25, 54, 50);
+    cursor: pointer;
+}
+
+button:hover {
+    scale: 1.1;
+    color: black;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.column1 {
+    height: 100%;
+    width: 60%;
+    float: left;
+    width: 90%;
+    font-family: Pacifico;
+    color: rgb(240, 36, 36);
+    margin-left: 50px;
+    text-shadow: 2px 2px 3px rgb(22, 5, 5);
+    letter-spacing: 2px;
+}
+
+.column2 {
+    height: 100%;
+    float: left;
+    width: 30%;
+    margin-right: 50px;
+}
+
+.row {
+    display: flex;
+    height: 60px;
+    padding: 10px 50px 0px 30px;
+}
+
+.box {
+    background: linear-gradient(-5deg, #089196, #036b55);
+    /* background-color: rgb(169, 247, 244); */
+}
+
+.box2 {
+    margin-left: 100px;
+}
+
+.avatar {
+    border-radius: 100%;
+}
+
+.column3 {
+    float: left !important;
+    width: 33% !important;
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 0px;
+    font-size: 50px;
+    color: black;
+}
+
+.profile {
+    color: black;
+    border: #000000 1px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    max-width: 300px;
+    margin: 20px 5px;
+    text-align: center;
+    font-family: arial;
+    padding: 5px;
+    border-radius: 18px;
+    background: linear-gradient(-5deg, #adec1a, #6e9c03);
+    cursor: pointer;
+}
+
+.profile:hover {
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
+    background: linear-gradient(-90deg, #033030, #0a9e9e);
+    color: white;
+}
+
+.email {
+    font-style: oblique;
+    font-size: 18px;
+    font-weight: 700;
+    overflow-wrap: anywhere;
+}
+
+.name {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+#main {
+    padding: 7px 50px;
+    margin: 0 auto;
+    display: none;
+}
+
+.loader {
+    margin: 0 auto;
+}
+
+body {
+    background: rgb(6, 56, 56);
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
