@@ -1,0 +1,82 @@
+body{
+    background-color: #f3e2e6;
+  }
+  .container {
+      width: 400px;
+      margin: auto;
+      align-items: center;
+      padding-top: 50px;
+      height: 100vh;
+      font-family: sans-serif;
+    }
+    @media (max-width:768px) {
+      .app {
+        align-items: center;
+        flex-direction: column;
+      }
+    }
+  .app h2 {
+    color: white;
+    font-size: 30px;
+    padding: 8px 0;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    background-color: #d56ad9;
+    font-family:  sans-serif;
+  }
+  .user-input {
+      display: flex;
+      width: 100%;
+      background-color: #f0f1f1;
+    }
+    
+    .user-input input{
+      border: none;
+      font-size: 18px;
+      padding: 10px;
+      width: 90%;
+    }
+    .user-input input:hover{
+         box-shadow: 0 0 12px #e22865;
+         border: 1px solid #e22865;
+    }
+    
+    .user-input button {
+      cursor: pointer;
+      border: none;
+      color: black;
+      background-color: #38e655;
+      font-size: 20px;
+      font-weight: 600;
+      height: 42px;
+      width: 15%;
+    }
+  
+    .user-input button:hover {
+        background-color: #9557a8;
+        color: aqua;
+    }
+    .to-do-items{
+      width: 400px;
+      margin: auto;
+    }
+    .item{
+      background-color: white;
+      display: flex;
+      justify-content: space-between;
+      width: 370px;
+      margin: auto;
+      border-radius: 2px;
+      padding: 15px;
+      color: #454545;
+      margin-top: 10px;
+      font-size: 1rem;
+    }
+    .item:hover{
+      box-shadow: 0 0 10px #e22865;
+      border: 1px solid #e22865;
+    }
+    .item i{
+      cursor: pointer;
+      margin: 0 5px;
+    }
